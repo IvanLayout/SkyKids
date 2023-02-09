@@ -1,0 +1,769 @@
+@media (max-width: 1024px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    body
+    {
+        font-size: 14px;
+    }
+
+    .menu-open
+    {
+        overflow: hidden;
+    }
+
+    ._marg
+    {
+        margin-top: 60px;
+    }
+
+
+    .section-gray_bot
+    {
+        padding-bottom: 50px;
+
+        border-radius: 0;
+    }
+
+
+    /*---------------
+		Page head
+	---------------*/
+    .main-title
+    {
+        font-size: 28px;
+    }
+
+    .main-subtitle
+    {
+        margin-top: 20px;
+    }
+
+    .main-subtitle br
+    {
+        display: none;
+    }
+
+
+    /*----------------
+		Typography
+	----------------*/
+    .text-block h1,
+    .text-block .h1
+    {
+        font-size: 28px;
+    }
+
+    .text-block h2
+    {
+        font-size: 28px;
+    }
+
+    .text-block h3
+    {
+        font-size: 22px;
+    }
+
+    .text-block h4
+    {
+        font-size: 16px;
+    }
+
+    .text-block ul
+    {
+        font-size: 14px;
+    }
+
+    .text-block ul li
+    {
+        padding-left: 20px;
+    }
+
+    .text-block ul li::before
+    {
+        width: 6px;
+        height: 6px;
+    }
+
+    .text-block ul li + li
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*------------------
+		Form elements
+	------------------*/
+    .form__block
+    {
+        margin-top: 26px;
+    }
+
+    .form__title
+    {
+        font-size: 22px;
+    }
+
+    .form__list
+    {
+        font-size: 14px;
+    }
+
+    .form__list li
+    {
+        padding-left: 20px;
+    }
+
+    .form__list li::before
+    {
+        width: 6px;
+        height: 6px;
+    }
+
+    .form__list li + li
+    {
+        margin-top: 8px;
+    }
+
+
+    .form__line
+    {
+        margin-bottom: 16px;
+    }
+
+    .form-flex .form__line
+    {
+        width: 100%;
+    }
+
+    .form .form__input
+    {
+        font-size: 14px;
+
+        height: 44px;
+    }
+
+    .form__bot .form-submit
+    {
+        width: 100%;
+    }
+
+
+
+    .btn-orange
+    {
+        font-size: 16px;
+        line-height: 44px;
+
+        height: 44px;
+    }
+
+    .form__bot .form__agree
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+		Header
+	------------*/
+    .header
+    {
+        position: fixed;
+
+        padding: 14px 0;
+    }
+
+    .header.fixed
+    {
+        animation: none;
+    }
+
+    .header__logo
+    {
+        position: relative;
+        z-index: 100;
+
+        width: 130px;
+        margin-right: auto;
+    }
+
+    .mob-menu-btn
+    {
+        display: block;
+
+        margin-left: 30px;
+    }
+
+    .header__phone_mob
+    {
+        position: relative;
+        z-index: 100;
+
+        display: block;
+    }
+
+    .header__wrap
+    {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+
+        visibility: hidden;
+
+        height: 100%;
+        padding: 72px 16px 20px;
+
+        pointer-events: none;
+
+        opacity: 0;
+        background: linear-gradient(94.59deg, #4923B4 2.39%, #E8AE78 97.66%);
+
+        transition: opacity .2s linear, visibility .2s linear;
+    }
+
+    .header.show .header__wrap
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+    .header__scroll
+    {
+        display: block;
+        overflow: hidden;
+        overflow-y: auto;
+
+        height: 100%;
+        padding-top: 30px;
+    }
+
+    .header__item + .header__item
+    {
+        margin-left: 26px;
+    }
+
+    .header__link
+    {
+        font-size: 16px;
+    }
+
+    .header__contact
+    {
+        margin-top: 30px;
+    }
+
+    .header .callback-btn
+    {
+        font-size: 16px;
+
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .header .callback-btn span
+    {
+        padding-left: 32px;
+    }
+
+    .header .callback-btn svg
+    {
+        left: 0;
+
+        margin-left: 0;
+    }
+
+    .header .login-btn
+    {
+        font-size: 16px;
+
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .header .login-btn span
+    {
+        padding-left: 32px;
+    }
+
+    .header .login-btn svg
+    {
+        left: 0;
+
+        margin-left: 0;
+    }
+
+    .header__callback
+    {
+        margin-left: 22px;
+    }
+
+    .header__login
+    {
+        margin-left: 22px;
+    }
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .first-section
+    {
+        padding: 120px 0 180px;
+
+        border-radius: 0;
+    }
+
+    .first-section__title
+    {
+        font-size: 28px;
+    }
+
+    .first-section__desc
+    {
+        font-size: 16px;
+    }
+
+    .first-section__img
+    {
+        width: 800px;
+        margin-left: -200px;
+    }
+
+    .dialogue
+    {
+        top: 120px;
+        right: 16px;
+        left: auto;
+
+        height: 218px;
+        margin-left: 0;
+    }
+
+    .dialogue__question
+    {
+        padding: 16px;
+    }
+
+    .dialogue .swiper-slide
+    {
+        height: 106px;
+    }
+
+    .dialogue__question span
+    {
+        -webkit-line-clamp: 3;
+    }
+
+    .dialogue__answer
+    {
+        padding: 16px;
+    }
+
+    .dialogue__answer span
+    {
+        -webkit-line-clamp: 3;
+    }
+
+
+
+    .main-form__flex
+    {
+        align-content: center;
+        align-items: center;
+
+        padding: 40px 20px 0;
+
+        border-radius: 0;
+    }
+
+    .main-form__colr
+    {
+        width: calc(50% - 10px);
+        max-width: none;
+        padding: 0 0 40px;
+    }
+
+    .main-form__coll
+    {
+        width: calc(50% - 10px);
+        max-width: none;
+    }
+
+
+
+    .main-quote__colr
+    {
+        width: 200px;
+    }
+
+    .main-quote__text-block
+    {
+        margin-top: 0;
+        padding-left: 60px;
+    }
+
+    .main-quote__text-block::before
+    {
+        width: 40px;
+        height: 38px;
+    }
+
+    .main-quote__name
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+    .main-quote__position
+    {
+        font-size: 14px;
+
+        margin-top: 4px;
+    }
+
+
+    .main-info__flex
+    {
+        justify-content: space-between;
+    }
+
+    .main-quote__coll
+    {
+        width: calc(50% - 10px);
+        max-width: none;
+    }
+
+    .main-info__text-block
+    {
+        width: calc(50% - 10px);
+        max-width: none;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .main-info__text-block h2
+    {
+        margin-bottom: 27px;
+    }
+
+
+
+    .main-about
+    {
+        padding: 40px 0;
+
+        border-radius: 0;
+    }
+
+    .main-about__items
+    {
+        margin-top: 14px;
+    }
+
+    .main-about__item
+    {
+        font-size: 14px;
+
+        width: calc(100%/3 - 24px);
+        min-height: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+    .about-quote
+    {
+        margin-top: 40px;
+    }
+
+    .about-quote__colr
+    {
+        width: 200px;
+        margin-left: 30px;
+    }
+
+    .about-quote__box
+    {
+        position: relative;
+        left: 0;
+
+        width: 100%;
+        margin-top: 16px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+    .about-quote__name
+    {
+        font-size: 16px;
+    }
+
+    .about-quote__position
+    {
+        font-size: 14px;
+
+        margin-top: 4px;
+    }
+
+    .about-quote__important
+    {
+        padding: 20px 16px 20px 60px;
+    }
+
+    .about-quote__important::before
+    {
+        left: 14px;
+
+        line-height: 30px;
+
+        width: 30px;
+        height: 30px;
+
+        transform: translateY(-50%);
+    }
+
+    .about-quote__block
+    {
+        width: 100%;
+        max-width: none;
+        margin-top: 40px;
+        padding-left: 60px;
+    }
+
+    .about-quote__block::before
+    {
+        width: 40px;
+        height: 38px;
+    }
+
+
+
+    .how-work__flex
+    {
+        justify-content: center;
+
+        margin: 14px 0 0 -24px;
+    }
+
+    .how-work__item
+    {
+        flex-grow: 1;
+
+        width: calc(100%/3 - 24px);
+        margin: 26px 0 0 24px;
+    }
+
+    .how-work__item:before
+    {
+        display: none;
+    }
+
+
+
+    .training
+    {
+        padding: 40px 0 0;
+
+        border-radius: 0;
+    }
+
+    .tabs._flex
+    {
+        padding-bottom: 10px;
+    }
+
+    .tabs-button
+    {
+        font-size: 16px;
+
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+        /* flex-wrap: wrap; */
+    }
+
+    /* .tabs-button__box
+    {
+        width: 100%;
+        margin-top: 10px;
+    } */
+
+    .tabs-button__icon
+    {
+        width: 30px;
+        height: 34px;
+    }
+
+    .tabs-button__desc
+    {
+        display: none;
+
+        margin-top: 6px;
+    }
+
+    .tabs-button::before
+    {
+        margin-left: -12px;
+
+        border: 12px solid transparent;
+        border-top: 10px solid #F7681C;
+    }
+
+
+
+    .advantages__flex
+    {
+        margin: 16px 0 0 -24px;
+    }
+
+    .advantages__item
+    {
+        width: calc(100%/3 - 24px);
+        margin: 26px 0 0 24px;
+    }
+
+    .advantages__name
+    {
+        font-size: 16px;
+    }
+
+    .advantages__desc
+    {
+        margin-top: 6px;
+    }
+
+
+
+    .section-gray_pad
+    {
+        padding: 40px 0;
+
+        border-radius: 0;
+    }
+
+
+
+    .subscription-options__items
+    {
+        margin-top: 14px;
+    }
+
+    .subscription-options__item
+    {
+        padding: 16px;
+    }
+
+    .subscription-options__name
+    {
+        font-size: 18px;
+    }
+
+    .subscription-options__desc
+    {
+        font-size: 14px;
+    }
+
+    .subscription-options__price
+    {
+        font-size: 30px;
+    }
+
+    .subscription-options__btn
+    {
+        font-size: 14px;
+    }
+
+
+    .subscription-demo
+    {
+        padding: 20px;
+
+        border-radius: 0;
+    }
+
+    .subscription-demo__title
+    {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+
+
+    .free-consultation__bg
+    {
+        align-content: center;
+        align-items: center;
+
+        padding: 40px 20px;
+    }
+
+    .free-consultation__colr
+    {
+        width: calc(50% - 10px);
+    }
+
+    .free-consultation__coll
+    {
+        width: calc(50% - 10px);
+    }
+
+    .free-consultation__img3.loaded
+    {
+        bottom: -40px;
+    }
+
+
+    .main-partner__items
+    {
+        margin-top: 14px;
+    }
+
+    .main-partner__desc
+    {
+        font-size: 18px;
+
+        margin-top: 26px;
+    }
+
+
+
+    /*------------
+		Footer
+	------------*/
+    .footer
+    {
+        padding: 40px 0;
+    }
+
+    .footer__coll
+    {
+        max-width: 320px;
+    }
+
+    .footer__contact
+    {
+        padding-top: 0;
+    }
+
+
+
+    /*------------
+		Modal
+	------------*/
+    .modal__title b
+    {
+        font-size: 28px;
+    }
+}

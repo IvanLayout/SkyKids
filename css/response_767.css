@@ -1,0 +1,458 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    /*---------------
+		Page head
+	---------------*/
+    .main-title
+    {
+        font-size: 22px;
+    }
+
+
+    /*----------------
+		Typography
+	----------------*/
+    .text-block h1,
+    .text-block .h1
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+    .text-block h2
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+    .text-block h3
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+    .text-block h4
+    {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+    .text-block p
+    {
+        margin-bottom: 18px;
+    }
+
+
+
+    /*------------------
+		Form elements
+	------------------*/
+
+
+
+    /*------------
+		Header
+	------------*/
+    .header__scroll
+    {
+        display: flex;
+        align-content: stretch;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .header__menu
+    {
+        margin-bottom: auto;
+    }
+
+    .header__item
+    {
+        width: 100%;
+    }
+
+    .header__item + .header__item
+    {
+        margin: 10px 0 0;
+    }
+
+    .header__link
+    {
+        line-height: 1.5;
+
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+    .header__contact .header__phone
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header__callback
+    {
+        margin-left: 0;
+    }
+
+    .header .callback-btn
+    {
+        font-size: 14px;
+    }
+
+    .header .login-btn
+    {
+        font-size: 14px;
+    }
+
+    .header__login
+    {
+        margin-left: 16px;
+    }
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .first-section__box
+    {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .first-section__img
+    {
+        width: 560px;
+    }
+
+    .first-section__info
+    {
+        font-size: 18px;
+
+        margin-top: 36px;
+    }
+
+    .dialogue
+    {
+        display: none;
+    }
+
+
+    .main-form
+    {
+        margin-top: -60px;
+    }
+
+    .main-form__flex
+    {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .main-form__coll
+    {
+        width: 100%;
+        max-width: 416px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .main-form__colr
+    {
+        width: 100%;
+    }
+
+
+
+    .main-quote__flex
+    {
+        flex-wrap: wrap;
+    }
+
+    .main-quote__text-block
+    {
+        order: 2;
+
+        padding-left: 50px;
+    }
+
+    .main-quote__text-block::before
+    {
+        width: 30px;
+        height: 28px;
+    }
+
+    .main-quote__colr
+    {
+        margin: 0 0 30px;
+    }
+
+    .main-quote__photo img
+    {
+        border-radius: 150px 150px 200px 20px;
+    }
+
+
+
+    .main-quote__coll
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-info__text-block
+    {
+        width: 100%;
+    }
+
+
+
+    .main-about__items
+    {
+        margin: 8px 0 0 -16px;
+    }
+
+    .main-about__item
+    {
+        width: calc(100%/2 - 16px);
+        margin: 16px 0 0 16px;
+    }
+
+
+    .about-quote
+    {
+        flex-wrap: wrap;
+    }
+
+    .about-quote__coll
+    {
+        order: 2;
+    }
+
+    .about-quote__colr
+    {
+        margin: 0 0 30px;
+    }
+
+    .about-quote__photo img
+    {
+        border-radius: 150px 150px 200px 20px;
+    }
+
+
+    .about-quote__block
+    {
+        margin-top: 30px;
+        padding-left: 50px;
+    }
+
+    .about-quote__block::before
+    {
+        width: 30px;
+        height: 28px;
+    }
+
+
+
+    .how-work__flex
+    {
+        margin: 4px 0 0 -16px;
+    }
+
+    .how-work__item
+    {
+        width: calc(100%/2 - 16px);
+        margin: 26px 0 0 16px;
+    }
+
+    .how-work__name
+    {
+        font-size: 16px;
+        line-height: 1.2;
+
+        margin-top: 10px;
+    }
+
+    .how-work__desc
+    {
+        font-size: 12px;
+
+        margin-top: 4px;
+    }
+
+
+    .tabs._flex
+    {
+        width: calc(100% + 32px);
+        margin: 20px -16px 10px;
+        padding-right: 16px;
+    }
+
+    .tabs._flex::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .tabs._flex::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+    .tabs-button
+    {
+        margin-left: 16px;
+    }
+
+    .tabs-button__name
+    {
+        white-space: nowrap;
+    }
+
+
+
+    .advantages__flex
+    {
+        margin: 6px 0 0 -16px;
+    }
+
+    .advantages__item
+    {
+        width: calc(100%/2 - 16px);
+        margin: 24px 0 0 16px;
+    }
+
+
+    .subscription-options__items
+    {
+        overflow: hidden;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+
+        width: calc(100% + 32px);
+        margin: 8px -16px 0 -16px;
+        padding-right: 16px;
+    }
+
+    .subscription-options__items::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .subscription-options__items::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+    .subscription-options__item
+    {
+        flex-shrink: 0;
+
+        width: calc(100%/2 - 16px);
+        margin: 16px 0 0 16px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .subscription-options__price
+    {
+        font-size: 26px;
+    }
+
+
+    .subscription-demo
+    {
+        flex-wrap: wrap;
+
+        padding: 16px;
+    }
+
+    .subscription-demo__wrap-btn
+    {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .free-consultation__coll
+    {
+        width: 100%;
+        max-width: 416px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+    }
+
+    .free-consultation__img3.loaded
+    {
+        bottom: 30px;
+    }
+
+    .free-consultation__colr
+    {
+        width: 100%;
+    }
+
+
+
+    .main-partner__items
+    {
+        margin: 8px 0 0 -16px;
+    }
+
+    .main-partner__item
+    {
+        width: calc(100%/3 - 16px);
+        height: 100px;
+        margin: 16px 0 0 16px;
+        padding: 16px 8px;
+    }
+
+
+
+    .main-partner__desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------
+		Footer
+	------------*/
+    .footer__coll
+    {
+        order: 2;
+
+        width: 100%;
+        max-width: none;
+        margin-top: 30px;
+    }
+
+
+
+    /*------------
+		Modal
+	------------*/
+    .modal
+    {
+        width: 400px;
+        padding: 40px 16px;
+    }
+
+    .modal_policy
+    {
+        width: 100%;
+    }
+}

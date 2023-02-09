@@ -1,0 +1,317 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    /*---------------
+		Page head
+	---------------*/
+    .main-title
+    {
+        font-size: 20px;
+    }
+
+    .main-subtitle
+    {
+        margin-top: 16px;
+    }
+
+
+    /*----------------
+		Typography
+	----------------*/
+    .text-block h1,
+    .text-block .h1
+    {
+        font-size: 20px;
+    }
+
+    .text-block h2
+    {
+        font-size: 20px;
+    }
+
+
+    /*------------------
+		Form elements
+	------------------*/
+    .form__title
+    {
+        font-size: 20px;
+    }
+
+    .form__list
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+		Header
+	------------*/
+    .header__phone_mob
+    {
+        font-size: 0;
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 34px;
+        height: 34px;
+
+        background: url(../images/ic_phone.svg) 50% no-repeat;
+    }
+
+    .header__phone_mob svg
+    {
+        display: block;
+    }
+
+    .mob-menu-btn
+    {
+        width: 34px;
+        height: 34px;
+        margin-left: 16px;
+    }
+
+    .header__wrap
+    {
+        padding-top: 64px;
+    }
+
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .first-section__title
+    {
+        font-size: 22px;
+    }
+
+    .first-section__desc
+    {
+        font-size: 14px;
+
+        margin-top: 16px;
+    }
+
+    .first-section__info
+    {
+        margin-top: 30px;
+    }
+
+    .first-section__list
+    {
+        height: 84px;
+    }
+
+    .first-section__li
+    {
+        font-size: 14px;
+        line-height: 28px;
+
+        padding-left: 20px;
+    }
+
+    .first-section__li::before
+    {
+        width: 6px;
+        height: 6px;
+        margin-top: -3px;
+    }
+
+
+    .first-section__img
+    {
+        width: 500px;
+    }
+
+
+
+    .main-quote__text-block
+    {
+        padding-left: 40px;
+    }
+
+    .main-quote__text-block::before
+    {
+        width: 24px;
+        height: 22px;
+    }
+
+
+
+    .main-about__items
+    {
+        margin-left: -8px;
+    }
+
+    .main-about__item
+    {
+        width: calc(100%/2 - 8px);
+        margin-left: 8px;
+        padding: 20px 10px 20px 16px;
+
+        border-right-width: 6px;
+    }
+
+    .main-about__item::before
+    {
+        top: 10px;
+        left: 6px;
+
+        width: 6px;
+        height: 6px;
+    }
+
+
+    .about-quote__important
+    {
+        padding-left: 40px;
+    }
+
+    .about-quote__important::before
+    {
+        left: 10px;
+
+        line-height: 20px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+    .about-quote__block
+    {
+        padding-left: 40px;
+    }
+
+    .about-quote__block::before
+    {
+        width: 24px;
+        height: 22px;
+    }
+
+
+    .how-work__item
+    {
+        width: calc(100% - 16px);
+    }
+
+    .how-work__desc br
+    {
+        display: none;
+    }
+
+
+    .tabs._flex
+    {
+        padding-left: 8px;
+    }
+
+    .tabs-button
+    {
+        font-size: 14px;
+
+        margin-left: 8px;
+        padding: 8px;
+    }
+
+    .tabs-button__icon
+    {
+        width: 26px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .video__play
+    {
+        width: 50px;
+        height: 50px;
+
+        background-size: 16px auto;
+    }
+
+
+    .advantages__icon
+    {
+        height: 36px;
+    }
+
+    .advantages__name
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+    .advantages__desc
+    {
+        font-size: 12px;
+    }
+
+
+    .subscription-options__item
+    {
+        width: 260px;
+    }
+
+
+    .subscription-demo__title
+    {
+        font-size: 18px;
+    }
+
+    .subscription-demo .btn-orange
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    /*------------
+		Main partner
+	------------*/
+    .main-partner__item
+    {
+        height: 70px;
+    }
+
+
+
+    /*------------
+		Footer
+	------------*/
+    .footer .callback-btn
+    {
+        font-size: 14px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .login-btn
+    {
+        font-size: 14px;
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .footer__menu
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------
+		Modal
+	------------*/
+}
