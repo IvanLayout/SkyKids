@@ -1,3 +1,21 @@
+<?php
+	// Создание сессии
+	session_start();
+	if (isset($_SESSION["lang"])){
+		$lang = $_SESSION["lang"];
+	} else{
+		$_SESSION["lang"] = true;
+
+		// Переадресация по языку
+		preg_match('/^\w{2}/', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $m);
+		
+		switch (strtolower($m[0])) {
+			case 'ru': header('Location: /index.php'); break;
+			default: break;
+		}
+	}
+?>
+
 <html lang="ru">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -20,56 +38,6 @@
 
 		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
 		<link rel="shortcut icon" href="/images/favicon.png">
-
-		<script>
-			let uri = window.location.pathname.replace(/^\/[^\/]{2}\//, '/')
-	// uri = uri.replace(/^\/[^\/]{2}$/, '') + window.location.search
-
-	console.log(uri)
-	
-			function getCookie(c_name) {
-				if (document.cookie.length > 0) {
-					c_start = document.cookie.indexOf(c_name + "=");
-					if (c_start != -1) {
-						c_start = c_start + c_name.length + 1;
-						c_end = document.cookie.indexOf(";", c_start);
-						if (c_end == -1) {
-							c_end = document.cookie.length;
-						}
-						return unescape(document.cookie.substring(c_start, c_end));
-					}
-				}
-				return "";
-			}
-
-			// if (getCookie('c_consent') != 'Y') {
-			// 	preg_match('/^\w{2}/', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $m);
-
-			// 	switch (strtolower($m[0])) {
-			// 		case 'ru': header('Location: /index.php'); break;
-			// 		default: break;
-			// 	}
-			// }
-		</script>
-
-		<?php
-			// session_start();
-			// $sessionName = session_name();
-
-			// if (isset($_COOKIE[$sessionName]) || isset($_REQUEST[$sessionName])) {
-			// 	preg_match('/^\w{2}/', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $m);
-
-				
-			// }
-			// if (getCookie('c_consent') != 'Y') {
-			// 	preg_match('/^\w{2}/', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $m);
-
-			// 	switch (strtolower($m[0])) {
-			// 		case 'ru': header('Location: /index.php'); break;
-			// 		default: break;
-			// 	}
-			// }
-		?>
 
 		<!-- Подключение шрифта google -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
