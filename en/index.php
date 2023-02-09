@@ -1,9 +1,7 @@
 <?php
 	// Создание сессии
 	session_start();
-	if (isset($_SESSION["lang"])){
-		$lang = $_SESSION["lang"];
-	} else{
+	if (!isset($_SESSION["lang"])){
 		$_SESSION["lang"] = true;
 
 		// Переадресация по языку
